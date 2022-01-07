@@ -1,0 +1,39 @@
+:root {
+  --colOne: indigo;
+  --colTwo: blue;
+}
+
+div {
+  display: grid;
+  justify-content: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+}
+
+li {
+  height: 200px;
+  width: 200px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.one {
+  background: var(--colOne);
+}
+
+.two {
+  background: var(--colTwo);
+}
+
+#status {
+  margin-top: 200px;
+}
